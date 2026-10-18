@@ -1,0 +1,29 @@
+
+<%@ page import="java.util.Date" %>
+<html>
+<head>
+<title>JSP Implicit and Explicit Objects</title>
+</head>
+
+<body>
+
+<h2>JSP Implicit Objects</h2>
+
+<p>Method: <%= request.getMethod() %></p>
+<p>Server: <%= request.getServerName() %></p>
+<p>Session ID: <%= session.getId() %></p>//server name
+<p>Server Info: <%= application.getServerInfo() %></p>
+
+<%out.println("Hello from JSP");%>
+
+<h2>JSP Explicit Objects</h2>
+
+<%Date d = new Date();
+String msg = new String("Welcome to JSP");
+%>
+
+<p>Date: <%= d %></p>
+<p>Message: <%= msg %></p>
+
+</body>
+</html>
