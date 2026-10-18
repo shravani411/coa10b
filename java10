@@ -27,3 +27,45 @@ String msg = new String("Welcome to JSP");
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//cd /path/to/apache-tomcat/bin
+./startup.sh
+http://localhost:8080/java10.jsp
+nano /opt/tomcat/webapps/jsp/object.jsp
+
